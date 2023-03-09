@@ -101,10 +101,10 @@ input, select, textarea {
 
 	body {
 		background-color: #20645b;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #0e423e 15%, #030303 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #0e423e  15%, #030303 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #0e423e 15%, #030303 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #0e423e  15%, #030303 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #0e423e 15%, #0e423e 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #0e423e  15%, #0e423e 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #0e423e 15%, #0e423e 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #0e423e  15%, #0e423e 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2292,23 +2292,23 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #98cc9b;
+			color: #ffffff;
 		}
 
 		.icon.style2 {
-			color: #83b98f;
+			color: #ffffff;
 		}
 
 		.icon.style3 {
-			color: #65976f;
+			color: #ffffff;
 		}
 
 		.icon.style4 {
-			color: #508d64;
+			color: #ffffff;
 		}
 
 		.icon.style5 {
-			color: #486e58;
+			color: #ffffff;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -2885,23 +2885,23 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #a6cebd;
+				background-color: #ffffff;
 			}
 
 			.statistics li.style2 {
-				background-color: #64ac94;
+				background-color: #ffffff;
 			}
 
 			.statistics li.style3 {
-				background-color: #78aa8e;
+				background-color: #ffffff;
 			}
 
 			.statistics li.style4 {
-				background-color: #385e51;
+				background-color: #ffffff;
 			}
 
 			.statistics li.style5 {
-				background-color: #1e3b32;
+				background-color: #ffffff;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3216,13 +3216,13 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		background-color: #ffffff;
-		color: #636363;
+		background-color: #345252;
+		color: #f0f3f2;
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #345252;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3246,16 +3246,16 @@ input, select, textarea {
 		}
 
 		#nav blockquote {
-			border-left-color: #dddddd;
+			border-left-color: #345252;
 		}
 
 		#nav code {
 			background: rgba(222, 222, 222, 0.25);
-			border-color: #dddddd;
+			border-color: #345252;
 		}
 
 		#nav hr {
-			border-bottom-color: #dddddd;
+			border-bottom-color: #345252;
 		}
 
 		#nav + #main {
@@ -3294,11 +3294,13 @@ input, select, textarea {
 				}
 
 					#nav ul li a:hover {
-						background-color: rgba(222, 222, 222, 0.25);
+						background-color: rgba(121, 127, 128, 0.25);
+					    color: white;
 					}
 
+
 					#nav ul li a.active {
-						background-color: #ffffff;
+						background-color: #466868;
 						box-shadow: none;
 					}
 
@@ -3545,13 +3547,7 @@ input, select, textarea {
 			color: #636363;
 		}
 
-		#main header.major h2:after {
-			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #cfbc87, #aac89c, #1d7050);
-			background-image: -webkit-linear-gradient(90deg, #cfbc87, #aac89c, #1d7050);
-			background-image: -ms-linear-gradient(90deg, #cfbc87, #aac89c, #1d7050);
-			background-image: linear-gradient(90deg, #cfbc87, #aac89c, #1d7050);
-		}
+		
 
 		#main table tbody tr {
 			border-color: #dddddd;
@@ -3788,7 +3784,7 @@ input, select, textarea {
 		.hairphoto, .facialsphoto, .lashphoto {
 			height: 220px;
 			width: 220px;
-			border-radius: 100%;
+			
 		}
 
 		.salonphoto1,
@@ -3827,7 +3823,7 @@ input, select, textarea {
   flex-direction: row;
 	justify-content: center;
 	justify-content: space-between;
-  gap: 10px;
+  gap: 5px;
 }
 
 .salonphoto1,
@@ -3856,11 +3852,13 @@ input, select, textarea {
 }
 /***************** ANYTHING WIDER THAN 1200PX SCREENS ******************/
 /*********************** MAY BE REDUNDANT ******************************/
-/* @media (min-width: 1200px) {
-/*   .flex-container{
+@media (min-width: 1200px) {
+   .flex-container{
 	  flex-direction: row;
+	  width: 100%;
 	}
-			 */
+}
+			
 
 
 .copyright {
